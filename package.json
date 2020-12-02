@@ -1,0 +1,42 @@
+{
+  "name": "@adobe/metrics-sampler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Library for collecting and summarizing metrics",
+  "author": {
+    "name": "Adobe Inc."
+  },
+  "repository": "adobe/node-metrics-sampler",
+  "dependencies": {
+    "datalib": "^1.9.2",
+    "flat": "^5.0.0",
+    "interval-promise": "^1.4.0"
+  },
+  "devDependencies": {
+    "@adobe/eslint-config-asset-compute": "^1.3.0",
+    "@semantic-release/git": "^9.0.0",
+    "codecov": "^3.7.0",
+    "conventional-changelog-eslint": "^3.0.9",
+    "fs-extra": "^9.0.1",
+    "license-checker": "^25.0.1",
+    "mocha": "^7.2.0",
+    "nock": "^12.0.3",
+    "nyc": "^15.1.0",
+    "semantic-release": "^17.3.0"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "metrics",
+    "sampling",
+    "sampler",
+    "adobe",
+    "node"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "nyc mocha --recursive --exit",
+    "semantic-release": "semantic-release"
+  }
+}

@@ -6,7 +6,7 @@
   "author": {
     "name": "Jamie Delbick"
   },
-  "repository": "delbick/ci-release-dummy-repo",
+  "repository": "jdelbick/ci-release-dummy-repo",
   "dependencies": {
     "datalib": "^1.9.2",
     "flat": "^5.0.0",

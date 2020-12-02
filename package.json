@@ -1,10 +1,10 @@
 {
-  "name": "@adobe/metrics-sampler",
+  "name": "ci-release-dummy-test",
   "version": "1.0.0",
   "main": "index.js",
-  "description": "Library for collecting and summarizing metrics",
+  "description": "Testing library for semantic release",
   "author": {
-    "name": "Adobe Inc."
+    "name": "Jamie Delbick"
   },
   "repository": "adobe/node-metrics-sampler",
   "dependencies": {
@@ -25,13 +25,6 @@
     "semantic-release": "^17.3.0"
   },
   "license": "Apache-2.0",
-  "keywords": [
-    "metrics",
-    "sampling",
-    "sampler",
-    "adobe",
-    "node"
-  ],
   "publishConfig": {
     "access": "public"
   },

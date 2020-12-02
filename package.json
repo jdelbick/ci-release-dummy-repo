@@ -6,7 +6,7 @@
   "author": {
     "name": "Jamie Delbick"
   },
-  "repository": "adobe/node-metrics-sampler",
+  "repository": "delbick/ci-release-dummy-repo",
   "dependencies": {
     "datalib": "^1.9.2",
     "flat": "^5.0.0",
@@ -24,7 +24,7 @@
     "nyc": "^15.1.0",
     "semantic-release": "^17.3.0"
   },
-  "license": "Apache-2.0",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },

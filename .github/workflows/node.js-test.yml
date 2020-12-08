@@ -47,7 +47,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12.19'
-      - run: npm install
+      - run: echo env && npm install
       - run: npm run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.DELBICK_GITHUB_TOKEN }}
